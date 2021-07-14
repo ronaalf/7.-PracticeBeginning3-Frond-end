@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.up{
+    background-image: linear-gradient(rgba(0, 27, 23, 0.87), rgba(0, 46, 38, 0.87));
+    color: rgb(255, 255, 255);
+    padding: 1%;
+    position: relative;
+}
+.up :nth-child(1){
+    margin: 20px;
+}
+.up :nth-child(2){
+    margin: 20px;
+}
+.up :nth-child(3){
+    margin: 34px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    color: darkorange;
+}
+.header{
+    background-image: linear-gradient(rgb(2, 0, 24), rgba(2, 0, 24, 0.842));
+	color: rgb(223, 198, 165);
+	display: flex;
+	justify-content: center;
+	padding: 15px 0px;
+	align-items: center;
+	font-size: x-large;
+	word-wrap: break-word;
+	box-sizing: content-box;
+}
+.header a {
+    margin: 0px 20px;
+	cursor: pointer;
+	text-decoration: none;
+	color: rgb(223, 198, 165);
+}
+.footer{
+    background-color: rgb(2, 0, 24);
+	color: rgb(223, 198, 165);
+	display: flex;
+	justify-content: center;
+	padding: 4% 0px;
+	align-items: center;
+	font-size: x-large;
+}
+.father-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-image: linear-gradient(to right, rgba(135, 245, 168, 0.733), rgba(131, 205, 255, 0.781), rgba(220, 145, 255, 0.753));
+}
+.form-container{
+   margin-left: 50px;
+    }
+.title{
+    margin: 20px 50px;
+    font-size: large;
+}
+.form{
+    width: max-content;
+    background-color: rgba(2, 0, 24, 0.281);
+    color: rgb(255, 255, 255);
+    margin: 50px;
+    padding: 20px;
+}
+.form label{
+    font-size: larger;
+}
+.bellow-one{
+    height: 50px;
+    border-top: 1px solid rgba(128, 128, 128, 0.473);
+    grid-column: 1 / -1;
+}
+.submitt{
+    margin: 20px 50px 0px;
+    background-color:  rgba(21, 0, 255, 0.281);
+    border: none;
+    padding: 10px;
+    box-shadow: 0px 0px 6px black;
+}

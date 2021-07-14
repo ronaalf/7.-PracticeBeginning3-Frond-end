@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    background-image: linear-gradient(rgb(2, 0, 24), rgba(2, 0, 24, 0.842));
+	color: rgb(223, 198, 165);
+	display: flex;
+	justify-content: center;
+	padding: 15px 0px;
+	align-items: center;
+	font-size: x-large;
+	word-wrap: break-word;
+	box-sizing: content-box;
+}
+.header a {
+    margin: 0px 20px;
+	cursor: pointer;
+	text-decoration: none;
+	color: rgb(223, 198, 165);
+}
+.footer{
+    background-color: rgb(2, 0, 24);
+	color: rgb(223, 198, 165);
+	display: flex;
+	justify-content: center;
+	padding: 4% 0px;
+	align-items: center;
+	font-size: x-large;
+}
+.container-uno{
+    margin: auto;
+    border: 2px solid black;
+    height: 400px;
+    width: 400px;
+}
+.uno{
+    background-image: linear-gradient(coral, red, blue, green, purple);
+    width: 125px;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    animation: firstone 1s linear infinite, 
+                second 1s linear infinite;
+}
+@keyframes firstone{
+    from {
+        transform: rotateY(0deg);
+        
+             
+    }
+    to{
+        transform: rotateY(360deg);
+
+    }
+}
+@keyframes second {
+    0% {transform: rotateZ(0deg);}
+    50% {transform: rotateZ(180deg);}
+    100% {transform: rotateZ(360deg);}
+}
